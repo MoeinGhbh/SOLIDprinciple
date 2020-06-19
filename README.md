@@ -16,3 +16,6 @@ Software entities(Classes, modules, functions) should be open for extension, not
 
 ## 3.Liskov Substitution Principle
 The main idea behind Liskov Subtitution Principle is that, for any class, a client should be able to use any of its subtypes indistinguishably, without even noticing, and therefore without compromising the expected behavior at runtime. This means that clients are completely isolated and unaware of changes in the class hierarchy.
+
+## 4.Interface Segregation Principle
+Make fine grained interfaces that are client specific Clients should not be forced to depend upon interfaces that they do not use. This principle deals with the disadvantages of implementing big interfaces.
