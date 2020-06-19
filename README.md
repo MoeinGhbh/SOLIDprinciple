@@ -10,3 +10,6 @@ Why do you need to know?
 
 ## 1.Single Responsibility Principle
 The Single Responsibility Principle requires that a class should have only one job. So if a class has more than one responsibility, it becomes coupled. A change to one responsibility results to modification of the other responsibility.
+
+## 2.Open-Closed Principle
+Software entities(Classes, modules, functions) should be open for extension, not modification.
