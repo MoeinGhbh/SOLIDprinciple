@@ -13,3 +13,6 @@ The Single Responsibility Principle requires that a class should have only one j
 
 ## 2.Open-Closed Principle
 Software entities(Classes, modules, functions) should be open for extension, not modification.
+
+## 3.Liskov Substitution Principle
+The main idea behind Liskov Subtitution Principle is that, for any class, a client should be able to use any of its subtypes indistinguishably, without even noticing, and therefore without compromising the expected behavior at runtime. This means that clients are completely isolated and unaware of changes in the class hierarchy.
