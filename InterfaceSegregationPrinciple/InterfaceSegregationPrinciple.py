@@ -1,3 +1,12 @@
+"""
+Another nice trick is that in our business logic, a single class can implement several 
+interfaces if needed. So we can provide a single implementation for all the common methods 
+between the interfaces. The segregated interfaces will also force us to think of our code 
+more from the client’s point of view, which will in turn lead to loose coupling and easy 
+testing. So, not only have we made our code better to our clients, we also made it easier 
+for ourselves to understand, test and implement.
+"""
+
 # befor
 
 from abc import ABC,abstractclassmethod

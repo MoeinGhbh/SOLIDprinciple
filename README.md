@@ -19,3 +19,6 @@ The main idea behind Liskov Subtitution Principle is that, for any class, a clie
 
 ## 4.Interface Segregation Principle
 Make fine grained interfaces that are client specific Clients should not be forced to depend upon interfaces that they do not use. This principle deals with the disadvantages of implementing big interfaces.
+
+## 5.Dependecy Inversion Principle
+Dependency should be on abstractions not concretions. High-level modules should not depend upon low-level modules. Both low and high level classes should depend on the same abstractions. Abstractions should not depend on details. Details should depend upon abstractions.
