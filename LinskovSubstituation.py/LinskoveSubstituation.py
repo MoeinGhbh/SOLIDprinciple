@@ -1,6 +1,12 @@
 """
 In simpler terms means that a subclass, child or specialization of an object 
 or class must be suitable by its Parent or SuperClass.
+
+The main idea behind Liskov Subtitution Principle is that, for any class, 
+a client should be able to use any of its subtypes indistinguishably, 
+without even noticing, and therefore without compromising the expected 
+behavior at runtime. This means that clients are completely isolated 
+and unaware of changes in the class hierarchy.
 """
 
 # befor 
